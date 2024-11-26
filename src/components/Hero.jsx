@@ -7,7 +7,7 @@ const Hero = () => {
             <section className="Hero">
                 <div className="container">
                     <div className="hero_wrp">
-                        <div>
+                        <div className="hero_desc">
                             <h3>
                                 Enjoy Your Morning Coffee.
                             </h3>
