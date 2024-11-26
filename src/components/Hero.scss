@@ -38,6 +38,12 @@
                 border: none;
                 border-radius: 5px;
                 color: #fff;
+                transition: .3s;
+
+                &:hover{
+                    background-color: #ee8b21;
+                    cursor: pointer;
+                }
             }
         }
     }

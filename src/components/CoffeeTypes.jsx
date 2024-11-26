@@ -1,4 +1,9 @@
 import React from "react";
+import "./CoffeeTypes.scss"
+import coffe1 from "../assets/Rectangle 4.png"
+import coffe2 from "../assets/Rectangle 4-1.png"
+import coffe3 from "../assets/Rectangle 4-2.png"
+
 
 const CoffeeTypes = () => {
 
@@ -7,23 +12,23 @@ const CoffeeTypes = () => {
             <section className="cfe_tps">
                 <div className="container">
                     <div className="cfe_tps_wrp">
-                        <div>
+                        <div className="cfe_tps_item">
                             <h4>
                                 <span>01</span> Best Coffee Flavour
-                                <img src="" alt="COFFEE" />
                             </h4>
+                                <img src={coffe1} alt="COFFEE" />
                         </div>
-                        <div>
+                        <div className="cfe_tps_item">
                             <h4>
                                 <span>02</span> Place to get last
-                                <img src="" alt="COFFEE" />
                             </h4>
+                                <img src={coffe2} alt="COFFEE" />
                         </div>
-                        <div>
+                        <div className="cfe_tps_item">
                             <h4>
                                 <span>03</span> Proper roesting
-                                <img src="" alt="COFFEE" />
                             </h4>
+                                <img src={coffe3} alt="COFFEE" />
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,26 @@
+.cfe_tps{
+    width: 100%;
+    padding: 100px 0;
+
+    .cfe_tps_wrp{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .cfe_tps_item{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+
+            & h4{
+                font-size: 24px;
+                color: #fff;
+
+                & span{
+                    color: #C99E71;
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
