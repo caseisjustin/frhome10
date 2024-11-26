@@ -1,0 +1,113 @@
+.popular_prdcs{
+    width: 100%;
+    padding: 100px 0;
+
+    .popular_prdcs_wrp{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+
+        .poplr_prdc_desc{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 1rem;
+
+            & h5{
+                font-size: 18px;
+                color: #C99E71;
+                font-weight: 600;
+            }
+
+            & h4{
+                font-size: 48px;
+                color: #fff;
+            }
+        }
+
+        .pplr_prd_card_wrp{
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+            width: 100%;
+
+            .pplr_prd_cards{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+
+                .pplr_prd_card{
+                    padding: 48px;
+                    background-color: #121315;
+                    display: flex;
+                    flex-direction: column;
+                    width: calc(100% / 3 - 1.5rem);
+                    gap: 1.5rem;
+                    align-items: center;
+                    color: #fff;
+                    transition: .3s;
+
+                    &:hover{
+
+                        & h5{
+                            display: none;
+                        }
+
+                        & p{
+                            display: none;
+                        }
+
+                        & button{
+                            display: block;
+                        }
+                    }
+
+                    & h5{
+                        color: #C99E71;
+                        font-weight: 500;
+                        font-size: 16px;
+                    }
+
+                    & b{
+                        font-size: 20px;
+                    }
+
+                    & p{
+                        font-weight: 600;
+                        font-size: 16px;
+                    }
+
+                    & button{
+                        display: none;
+                        background-color: #C99E71;
+                        padding: 13px 20px;
+                        border: none;
+                        color: #fff;
+
+                        &:hover{
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+
+        .pplr_prd_btn{
+            width: 100%;
+            display: grid;
+            place-items: center;
+
+            & button{
+                color: #fff;
+                padding: 20px 36px;
+                background-color: #C99E71;
+                border: none;
+
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
