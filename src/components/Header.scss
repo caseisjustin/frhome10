@@ -3,6 +3,9 @@ header{
     height: 80px;
     display: flex;
     align-items: center;
+    position: sticky;
+    width: 100%;
+    top: 0;
 }
 
 .Header_container{
